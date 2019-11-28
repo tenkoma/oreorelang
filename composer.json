@@ -1,0 +1,25 @@
+{
+    "name": "tenkoma/oreorelang",
+    "type": "library",
+    "description": "oreore language",
+    "authors": [
+        {
+            "name": "Koji Tanaka",
+            "email": "tenkoma@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tenkoma\\OreOreLang\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    }
+}
