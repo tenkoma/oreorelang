@@ -5,7 +5,7 @@ namespace Tenkoma\OreOreLang;
 
 class Lexer
 {
-    public function parse(string $text): array
+    public function tokenize(string $text): array
     {
         $tokens = [];
         $length = mb_strlen($text);

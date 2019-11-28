@@ -6,11 +6,11 @@ use Tenkoma\OreOreLang\Lexer;
 
 class LexerTest extends \PHPUnit\Framework\TestCase
 {
-    public function testParse()
+    public function testTokenize()
     {
         $text = '1 + 2 + 3';
         $lexer = new Lexer();
-        $result = $lexer->parse($text);
+        $result = $lexer->tokenize($text);
         $expected = [
             [["1"], "number"],
             [[" "], "spaces"],
